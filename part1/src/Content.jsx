@@ -3,11 +3,12 @@ import Part2 from "./partComponents/Part2"
 import Part3 from "./partComponents/Part3"
 
 const Content = (props) => {
+    console.log(props)
     return (
         <>
-            <Part1 part1 = {props.part1} exercises1 = {props.exercises1}/>
-            <Part2 part2 = {props.part2} exercises2 = {props.exercises2}/>
-            <Part3 part3 = {props.part3} exercises3 = {props.exercises3}/>
+            <Part1 part1 = {props.parts[0]}/>
+            <Part2 part2 = {props.parts[1]}/>
+            <Part3 part3 = {props.parts[2]}/>
         </>
     )
 }

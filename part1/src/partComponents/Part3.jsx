@@ -1,7 +1,8 @@
 const Part3 = (props) => {
+    console.log(props)
     return (
         <>
-            <p>{props.part3} {props.exercises3}</p>
+            <p>{props.part3.name} {props.part3.exercises}</p>
         </>
     )
 }
